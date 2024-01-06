@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* header css */
+header{
+    background-image: url(../images/banner\(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.nav-link{
+    color: #fff;
+    position: relative;
+    padding: 0 !important;
+    text-transform: capitalize;
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    background-color:     #2ba3dd;;
+    height: 3px;
+    transition: .5s  all ease-in-out;
+    border-radius: 30px;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0%;
+    background-color: #2ba3dd;
+    height: 3px;
+    transition: .5s  all ease-in-out;
+    border-radius: 30px;
+
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-link:hover:before{
+    width: 48%;
+
+}
+.nav-link:hover::after{
+    width: 48%;
+}
+header h1{
+
+color: #fff;
+
+font-size: 40px;
+
+font-family: 'Source Sans 3', sans-serif;
+margin-top: 20px;
+}
+header h5{
+
+text-transform: uppercase;
+
+font-size: 13px;
+
+font-weight: 400;
+font-family: 'Source Sans 3', sans-serif;
+
+color:#2ba3dd;
+}
+header p{
+
+color: #fff;
+font-family: 'Source Sans 3', sans-serif;
+
+margin: 15px 0;
+}
+.btn-downlod{
+
+background: #2ba3dd;
+
+color: #fff;
+
+border-radius: 3px;
+
+text-transform: uppercase;
+
+font-size: 13px;
+font-family: 'Source Sans 3', sans-serif;
+
+letter-spacing: 0.5px;
+margin-top: 13px;
+}
+.btn-downlod:hover{
+    background-color: transparent;
+
+border-color: #2ba3dd;
+color: #2ba3dd;
+}
+.phone{
+    position: absolute;
+    bottom: 0;
+    
+}
+.height{
+    min-height: 80vh;
+    align-items: center;
+}
+
+
+/* header css */
+
+/* feature section */
+
+.feature_section{
+    padding: 50px 0px;
+
+}
+.feature_section h5{
+    font-family: 'Source Sans 3', sans-serif;
+
+font-size: 17px;
+
+font-weight: 400;
+
+color: #2ba3dd;
+
+text-transform: uppercase;
+}
+.feature_section h1{
+    font-family: 'Source Sans 3', sans-serif;
+
+font-size: 30px;
+
+padding: 10px 0;
+}
+.feature_section span{
+
+display: block;
+
+height: 3px;
+
+width: 0px;
+
+background-color: #2ba3dd;
+
+margin: auto;
+transition: .5s all ease-in-out;
+}
+.feature_section:hover.feature_section span{
+    width: 50px;
+
+}
+.item_box{
+
+/* border: 1px solid red; */
+}
+.item_box i{
+    border: 1px solid #898383;height: 50px;width: 50px;border-radius: 50%;justify-content: center;align-items: center;display: flex;margin: auto;
+}
+.item_box h2{
+
+font-size: 23px;
+font-family: 'Source Sans 3', sans-serif;
+
+text-align: center;
+
+margin: 11px 0;
+}.item_box p{
+
+text-align: center;
+font-family: 'Source Sans 3', sans-serif;
+
+font-size: 15px;
+}
+.section_title{
+  
+text-align: center;
+  
+margin-bottom: 40px;
+}
+/* feature section */
+
+/* device section css */
+
+.icon_list i{
+
+} 
+
+.device_section p{
+    font-family: 'Source Sans 3', sans-serif;
+
+margin-bottom: 35px;
+}
+.device_section ul{
+
+list-style: none;
+
+/* display: flex; */
+}
+.device_section ul li{
+    font-family: 'Source Sans 3', sans-serif;
+
+display: flex;
+
+margin: 10px 0px;
+
+display: flex;
+}
+.device_section ul li .icon_list{
+    
+border: 1px solid #fff;
+    
+/* height: 20px; */
+    
+width: 20px;
+    
+align-items: center;
+    
+justify-content: center;
+    
+display: flex;
+    
+margin-right: 20px;
+}
+.device_section{
+    padding: 50px 0px;
+}
+.device_section .section_title{
+    text-align: left !important;
+
+}
+.device_span{    
+    
+display: block;
+
+height: 3px;
+
+width: 0px;
+
+background-color: #2ba3dd;
+
+
+transition: .5s all ease-in-out;
+    margin-left:right !important;
+    border-radius: 10px;
+    margin: 30px 0px;
+
+}
+.device_section :hover .device_span{
+    width: 50px;
+
+}
+body p{
+    color:#b8b8b8;
+}
+
+
+/* device section css */
